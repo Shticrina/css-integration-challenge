@@ -20,9 +20,14 @@ body {
     letter-spacing: 10px;
 }
 
+.line {
+	width: 80%;
+    color: #ddd;
+    border-style: dashed;
+}
+
 .interface {
 	padding: 2em 8em;
-	border: 1px solid green;
 }
 
 .interface h2 {
@@ -61,10 +66,72 @@ body {
 /*Interface 2*/
 
 
-
 /*Interface 3*/
+#interface3 .card {
+	font-size: 18px;
+}
 
+#interface3 .card {
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+    width: 550px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
 
+#interface3 .card img {
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+}
+
+#interface3 .card .block-text {
+	padding: 20px;
+	padding-bottom: 0;
+	width: 90%;
+}
+
+#interface3 .card .block-text h2 {
+	padding-left:0;
+	font-size: 25px;
+	line-height: 27px;
+	margin: 5px 0;
+}
+
+#interface3 .card .block-text p {
+	margin-top: 0;
+	background-color: green;
+}
+
+#interface3 .card .card-footer {
+	margin-top: 32px;
+	color: #aaa;
+}
+
+#interface3 .card .card-footer,
+#interface3 .card .card-footer .middle,
+#interface3 .card .card-footer .icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+#interface3 .card .card-footer .middle {
+	flex-direction: column;
+}
+
+#interface3 .card .card-footer .middle p {
+	margin: 5px 0;
+	line-height: 5px;
+}
+
+#interface3 .card .card-footer img {
+	border-radius: 50%;
+}
+
+#interface3 .card .card-footer .icons i {
+	padding: 0 10px;
+}
 
 #myfooter {
 	padding: 1em;
@@ -73,7 +140,6 @@ body {
 	color: #fff;
 	background-color: #148781;
 }
-
 
 
 /*Responsive*/
