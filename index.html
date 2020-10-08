@@ -8,6 +8,9 @@
     <!-- Font awesome -->
 	<script src="https://kit.fontawesome.com/2d566fa444.js" crossorigin="anonymous"></script>
 
+    <!-- Chart style -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.anychart.com/releases/8.9.0/css/anychart-ui.min.css?hcode=a0c21fc77e1449cc86299c5faa067dc4">
+    
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="https://yarnpkg.com/en/package/normalize.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
@@ -16,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -91,40 +93,43 @@
                 <p>** graph **</p>
             </div>
 
-            <div class="topPages">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Top Active Pages</th>
-                            <th>Users</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>/actualites/so...nfants-femmes</td>
-                            <td>46</td>
-                        </tr>
-                        <tr>
-                            <td>/actualites/pol...-arme-politique</td>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td>/actualites/so...existe-femes</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>/p/159944294/...ee-de-meurtre</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>/programmes-tele</td>
-                            <td>3</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Top Active Pages</th>
+                        <th>Users</th>
+                    </tr>
+                </thead>
 
-            <div class="report">
+                <tbody>
+                    <tr>
+                        <td>/actualites/so...nfants-femmes</td>
+                        <td>46</td>
+                    </tr>
+
+                    <tr>
+                        <td>/actualites/pol...-arme-politique</td>
+                        <td>8</td>
+                    </tr>
+
+                    <tr>
+                        <td>/actualites/so...existe-femes</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>/p/159944294/...ee-de-meurtre</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>/programmes-tele</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="real-time-report">
                 <a href="#">REAL-TIME REPORT <i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
@@ -164,5 +169,12 @@
     <footer id="myfooter">
         <p class="text-center">This is the footer</p>
     </footer>
+
+    <!-- Javascript -->
+    <!-- Add AnyChart library -->
+    <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-base.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
 </body>
 </html>
