@@ -13,28 +13,77 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 
     <!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header id="myheader">
-        <div class="">this is the header</div>
+        <h2 class="">CSS Integration Challenge</h2>
     </header>
 
-    <section id="interface1">
-        <p>this is the interface1 content</p>
+    <section id="interface1" class="interface">
+        <h2>Interface 1</h2>
+
+        <div class="blocks">
+            <div class="block">
+                <div class="block-header">
+                    <img class="block-img" src="./images/sanglier.png" alt="grunt logo">
+                </div>
+
+                <div class="block-body">
+                    <h3>Grunt plugin</h3>
+                    <p>Install the <span class="font2">grunt-surge</span> plugin, and your project is ready to use <span class="font2">grunt deploy</span>.</p>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <img class="block-img" src="./images/coca.png" alt="gulp logo">
+                </div>
+
+                <div class="block-body">
+                    <h3>Gulp plugin</h3>
+                    <p>Install <span class="font2">surge</span> as a devDependency, and you're ready to use it in your Gulpfile.</p>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <img class="block-img" src="./images/git.png" alt="git logo">
+                </div>
+
+                <div class="block-body">
+                    <h3>Git hooks</h3>
+                    <p>Deploy every time you <span class="font2">push</span> to GitHub, but without any branch juggling.</p>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-header">
+                    <img class="block-img" src="./images/npm.png" alt="npm logo">
+                </div>
+
+                <div class="block-body">
+                    <h3>npm run scripts</h3>
+                    <p>Install the <span class="font2">Surge</span> <span class="font3">cli</span> tool, and your project is ready to use in your <span class="font2">package.json</span>.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="interface2">
+    <section id="interface2" class="interface">
         <p>this is the interface2 content</p>
     </section>
 
-    <section id="interface3">
+    <section id="interface3" class="interface">
         <p>this is the interface3 content</p>
     </section>
 
     <footer id="myfooter">
-        <div class="text-center">this is the footer</div>
+        <p class="text-center">This is the footer</p>
     </footer>
 </body>
 </html>
