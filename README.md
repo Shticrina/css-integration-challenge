@@ -19,4 +19,4 @@ Also, we have to make it responsive.
 [![](./images/15.card-small.png)](./images/15.card-small.png)
 
 
-***Github page:***  https://shticrina.github.io/challenge-bootstraprrr/
+***Github page:***  https://shticrina.github.io/css-integration-challenge/
