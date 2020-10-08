@@ -64,7 +64,65 @@ body {
 
 
 /*Interface 2*/
+#interface2 .container {
+	display: grid;
+	grid-template: 0.6fr 0.9fr 1.1fr 0.2fr/0.4fr;
+	background-color: #468df0;
+	font-family: "Open Sans", sans-serif;
+	width: 415px;
+	color: #eee;
+	padding: 0 30px;
+	box-sizing: border-box;
+	border: 0.4rem solid #f2f2f2;
+	margin: auto;
+	margin-bottom: 30px;
+}
 
+#interface2 .container p {
+	font-size: 3rem;
+	margin: 0px;
+	color: #fff;
+}
+
+#interface2 .container .chart h3 {
+  	border-bottom: 1px solid #66a0f3;
+}
+
+#interface2 .container th {
+  	color: #c8ddfb;
+}
+
+#interface2 .container tr {
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+}
+
+#interface2 .container tbody tr {
+	border-top: 1px solid #5395f2;
+	padding: 8px 0px;
+	width: 330px;
+}
+
+#interface2 .container tbody tr:nth-child(0n+5) {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #5395f2;
+}
+
+#interface2 .container .report {
+	text-align: right;
+	line-height: 49.2px;
+}
+
+#interface2 .container .report a {
+  	text-decoration: none;
+  	color: #eee;
+}
+
+#interface2 .container .report a i {
+  	margin-left: 10px;
+  	color: #fff;
+}
 
 /*Interface 3*/
 #interface3 .card {
