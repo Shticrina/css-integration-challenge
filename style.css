@@ -65,16 +65,13 @@ body {
 
 /*Interface 2*/
 #interface2 .container {
-	display: grid;
-	grid-template: 0.6fr 0.9fr 1.1fr 0.2fr/0.4fr;
-	background-color: #468df0;
 	font-family: "Open Sans", sans-serif;
-	width: 415px;
 	color: #eee;
+	background-color: #468df0;
+	width: 420px;
 	padding: 0 30px;
 	box-sizing: border-box;
 	border: 0.4rem solid #f2f2f2;
-	margin: auto;
 	margin-bottom: 30px;
 }
 
@@ -109,17 +106,17 @@ body {
 	border-bottom: 1px solid #5395f2;
 }
 
-#interface2 .container .report {
+#interface2 .container #real-time-report {
 	text-align: right;
 	line-height: 49.2px;
 }
 
-#interface2 .container .report a {
+#interface2 .container #real-time-report a {
   	text-decoration: none;
   	color: #eee;
 }
 
-#interface2 .container .report a i {
+#interface2 .container #real-time-report a i {
   	margin-left: 10px;
   	color: #fff;
 }
