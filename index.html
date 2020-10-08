@@ -176,5 +176,21 @@
     <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
     <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
     <script type="text/javascript" src="https://cdn.anychart.com/releases/8.9.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+	
+    <script type="text/javascript">
+
+        anychart.onDocumentLoad(function() {
+            // create a chart and set the data
+            var chart = anychart.column();
+            var tableData = anychart.data.parseHtmlTable(".table", ".row", ".cell p", ".heading .cell p", ".title");
+
+            chart.data(tableData);
+            chart.legend(true);
+
+            // set chart container and draw
+            chart.container("container").draw();
+        });
+
+    </script>
 </body>
 </html>
