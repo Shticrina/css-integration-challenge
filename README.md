@@ -8,15 +8,15 @@ Also, we have to make it responsive.
 
 #### Interface 1
 
-[![](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/03.zone-benefits-grid.png)
+[![](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/03.zone-benefits-grid.png)](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/03.zone-benefits-grid.png)
 
 #### Interface 2
 
-[![](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/13.ui-chart-2.png)
+[![](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/13.ui-chart-2.png)](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/13.ui-chart-2.png)
 
 #### Interface 3
 
-[![](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/15.card-small.png)
+[![](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/15.card-small.png)](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/raw/master/1.The-Field/End-of-Fields-Consolidation-Challenges/docs/images/15.card-small.png)
 
 
 ***Github page:***  https://shticrina.github.io/css-integration-challenge/
